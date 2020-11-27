@@ -20,3 +20,6 @@ if(ios) {
     return false;
   });
 }
+
+$(document).ready(function() {
+});

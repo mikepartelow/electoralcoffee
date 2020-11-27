@@ -10,8 +10,14 @@ path:hover, circle:hover {
   stroke: #002868 !important;
   stroke-width:2px;
   stroke-linejoin: round;
-  fill: #002868 !important;
+  fill: #00cc00 !important;
   cursor: pointer;
+}
+path.biden, circle.biden {
+  stroke: 0 !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #0000cc;
 }
 #path67 {
   fill: none !important;
