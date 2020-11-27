@@ -1,3 +1,7 @@
+# 2020 Biden Victory Coffee Project
+
+I like coffee, Joe Biden, maps, projects, and economic stimulus. What happens if I roll all that into one big mess on the web?
+
 ## Credits
 - [How to Make an Interactive and Responsive SVG Map of US States & Capitals](https://websitebeaver.com/how-to-make-an-interactive-and-responsive-svg-map-of-us-states-capitals)
 
@@ -6,3 +10,5 @@
 - [ ] Maine?
 - [ ] DC
 - [ ] works well on mobile
+- [ ] "timeless coffee" info-box is clipped
+- [ ] extract data to separate file. precompile step OK.
