@@ -3,3 +3,6 @@
 
 ## TODO
 - [ ] Lincoln and Omaha NE
+- [ ] Maine?
+- [ ] DC
+- [ ] works well on mobile

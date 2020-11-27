@@ -8,7 +8,10 @@ $("path, circle").mouseleave(function(e) {
 });
 
 $("circle.coffee").click(function(e) {
-  window.location = $(this).data('url');
+  var url = $(this).data('url');
+  var info = $(this).data('info');
+  $('#whatabout').html('<a href="' + url + '">' + info + '</a>');
+  // window.location = url;
 });
 
 $(document).mousemove(function(e) {
