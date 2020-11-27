@@ -36,3 +36,6 @@ path.biden, circle.biden {
   padding: 5px;
   font-family: arial;
 }
+svg.icon {
+  pointer-events: none;
+}
