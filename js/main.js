@@ -8,10 +8,12 @@ $("path, circle").mouseleave(function(e) {
 });
 
 $("circle.coffee").click(function(e) {
-  var url = $(this).data('url');
-  var info = $(this).data('info');
-  $('#whatabout').html('<a href="' + url + '">' + info + '</a>');
-  // window.location = url;
+  var id = $(this).parent('g').attr('id');
+  var name = id.replace(/coffee-/, '');
+  var whatabout = '#whatabout-' + name;
+
+  $('.whatabout').hide();
+  $(whatabout).show('slow');  
 });
 
 $(document).mousemove(function(e) {

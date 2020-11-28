@@ -12,3 +12,11 @@ I like coffee, Joe Biden, maps, projects, and economic stimulus. What happens if
 - [ ] works well on mobile
 - [ ] "timeless coffee" info-box is clipped
 - [ ] extract data to separate file. precompile step OK.
+- [ ] link to github from index
+- [ ] more exposition
+- [ ] little smiley biden face for roaster POI markers
+- [ ] bootstrap "card" for whatabout?
+- [ ] remove div's from data-info
+- [ ] brew setup info somehwere - footer?
+- [ ] footer?
+- [ ] list somewhere of all roasters

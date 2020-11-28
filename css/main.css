@@ -49,3 +49,14 @@ path.biden, circle.biden {
 svg.icon {
   pointer-events: none;
 }
+#whatabout {
+  padding-top: 3em;
+}
+.espresso-recipe {
+  font-size: 80%;
+  margin-bottom: 0;
+}
+.tasting-notes {
+  font-size: 80%;
+  padding-left: 2em;
+}
