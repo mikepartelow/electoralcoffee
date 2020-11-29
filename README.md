@@ -10,7 +10,6 @@ I like coffee, Joe Biden, maps, projects, and economic stimulus. What happens if
 - [ ] Maine?
 - [ ] DC
 - [ ] works well on mobile
-- [ ] "timeless coffee" info-box is clipped
 - [ ] extract data to separate file. precompile step OK.
 - [ ] link to github from index
 - [ ] more exposition
@@ -19,5 +18,5 @@ I like coffee, Joe Biden, maps, projects, and economic stimulus. What happens if
 - [ ] remove div's from data-info
 - [ ] brew setup info somehwere - footer?
 - [ ] footer?
-- [ ] when displaying roaster X info, display the info div (name) on the map
 - [ ] click <h1> and get a modal explanation of BVCP
+- [ ] click on roaster link. move cursor down, then left under Florida. info-box shows there.
