@@ -19,4 +19,5 @@ I like coffee, Joe Biden, maps, projects, and economic stimulus. What happens if
 - [ ] remove div's from data-info
 - [ ] brew setup info somehwere - footer?
 - [ ] footer?
-- [ ] list somewhere of all roasters
+- [ ] when displaying roaster X info, display the info div (name) on the map
+- [ ] click <h1> and get a modal explanation of BVCP

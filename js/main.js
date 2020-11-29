@@ -16,6 +16,19 @@ $("circle.coffee").click(function(e) {
   $(whatabout).show('slow');  
 });
 
+$(".whatabout-link").click(function(e) {
+  var name = $(this).data('whatabout');
+  var whatabout = '#whatabout-' + name;
+  
+  $('.whatabout').hide();
+  $(whatabout).show('slow');  
+});
+
+$('.whatabout-back').click(function(e) {
+  $('.whatabout').hide();
+  $('#whatabout-link-list').show();
+});
+
 $(document).mousemove(function(e) {
   $('#info-box').css('top',e.pageY-$('#info-box').height()-30);
   $('#info-box').css('left',e.pageX-($('#info-box').width())/2);
