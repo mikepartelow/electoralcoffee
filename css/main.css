@@ -62,6 +62,7 @@ svg.icon {
   position: absolute;
   z-index: -1;
   margin-right: 1em;
+  margin-left: 1em;
 }
 #whatabout {
   padding-top: 2em;
