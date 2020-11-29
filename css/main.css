@@ -51,7 +51,7 @@ svg.icon {
 }
 #whatabout-joe {  
   content: "";
-  background: url('img/joe.jpg');
+  background: url('/victorycoffee/img/joe.jpg');
   background-position: right bottom;
   opacity: 0.5;
   background-repeat: no-repeat;
