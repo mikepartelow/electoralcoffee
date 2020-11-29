@@ -49,8 +49,23 @@ path.biden, circle.biden {
 svg.icon {
   pointer-events: none;
 }
+#whatabout-joe {  
+  content: "";
+  background: url('/img/joe.jpg');
+  background-position: right bottom;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  position: absolute;
+  z-index: -1;
+  margin-right: 1em;
+}
 #whatabout {
   padding-top: 2em;
+  height: 100%;
 }
 .espresso-recipe {
   font-size: 80%;
