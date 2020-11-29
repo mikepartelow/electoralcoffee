@@ -20,4 +20,3 @@ I like coffee, Joe Biden, maps, projects, and economic stimulus. What happens if
 - [ ] footer?
 - [ ] click <h1> and get a modal explanation of BVCP
 - [ ] click on roaster link. move cursor down, then left under Florida. info-box shows there.
-- [ ] rename github, revise index.html github link
