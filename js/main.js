@@ -1,6 +1,6 @@
 $("path, circle").hover(function(e) {
   $('#info-box').css('display','block');
-  $('#info-box').html($(this).data('info'));
+  $('#info-box').html('<div>' + $(this).data('name') + '</div>');
 });
 
 $("path, circle").mouseleave(function(e) {
@@ -21,7 +21,7 @@ $(".whatabout-link").click(function(e) {
   var whatabout = '#whatabout-' + name;
 
   $('#info-box').css('display','block');
-  $('#info-box').html($("#coffee-" + name + ' circle').data('info'));
+  $('#info-box').html('<div>' + $("#coffee-" + name + ' circle').data('name') + '</div>');
 
   var bbox = $("#coffee-" + name)[0].getBoundingClientRect();
 
