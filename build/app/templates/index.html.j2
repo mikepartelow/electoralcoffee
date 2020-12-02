@@ -77,17 +77,21 @@
                       <th>Roasted</th>
                       <td>{{ roast.roasted_at }}</td>
                     </tr>
-                    <tr><th colspan="2">Espresso Recipe</th></tr>
-                    <tr>
-                      <td colspan="2">
-                        <ul class="espresso-recipe">
-                          <li>{{ roast.recipe.grams_in }} grams in</li>
-                          <li>{{ roast.recipe.grams_out }} grams out</li>
-                          <li>in {{ roast.recipe.seconds }} seconds</li>
-                          <li>at {{ roast.recipe.temperature }}</li>
-                        </ul>
-                      </td>
-                    </tr>
+
+                    {% if roast.recipe %}
+                      <tr><th colspan="2">Espresso Recipe</th></tr>
+                      <tr>
+                        <td colspan="2">
+                          <ul class="espresso-recipe">
+                            <li>{{ roast.recipe.grams_in }} grams in</li>
+                            <li>{{ roast.recipe.grams_out }} grams out</li>
+                            <li>in {{ roast.recipe.seconds }} seconds</li>
+                            <li>at {{ roast.recipe.temperature }}</li>
+                          </ul>
+                        </td>
+                      </tr>
+                    {% endif %}
+                    
                     <tr><th colspan="2">Tasting Notes</th></tr>
                     <tr>                  
                       <td colspan="2">

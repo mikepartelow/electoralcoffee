@@ -5,7 +5,7 @@ import json
 from jinja2 import Environment, PackageLoader, StrictUndefined, select_autoescape
 
 class Roaster:
-    def __init__(self, id_, name, map_x, map_y, state, address, url):
+    def __init__(self, id_, name, map_x, map_y, state, address, url, roasts):
         self.id         = id_
         self.name       = name
         self.map_x      = map_x
@@ -14,7 +14,26 @@ class Roaster:
         self.address    = address
         self.url        = url
 
-        self.roasts     = []
+        self.roasts     = roasts
+
+class Roast:
+    def __init__(self, name, level, ordered_at, roasted_at, tasting_notes):
+        self.name           = name
+        self.level          = level
+        self.ordered_at     = ordered_at
+        self.roasted_at     = roasted_at
+        self.tasting_notes  = tasting_notes
+
+        self.recipe         = None
+
+def roast_from_dict(d):
+    return Roast(
+                    d['name'],
+                    d['level'],
+                    d['ordered_at'],
+                    d['roasted_at'],
+                    d['tasting_notes']
+    )
 
 def load_roasters(path):
     roasters = []
@@ -24,13 +43,14 @@ def load_roasters(path):
             d = json.load(f)
 
         roasters.append(Roaster(
-            d['id'],
-            d['name'],
-            d['map_x'],
-            d['map_y'],
-            d['state'],
-            d['address'],
-            d['url']
+                                d['id'],
+                                d['name'],
+                                d['map_x'],
+                                d['map_y'],
+                                d['state'],
+                                d['address'],
+                                d['url'],
+                                map(roast_from_dict, d['roasts'])
         ))
 
 
