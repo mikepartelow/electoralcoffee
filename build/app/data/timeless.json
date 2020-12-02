@@ -1,0 +1,10 @@
+{
+    "id":           "timeless",
+    "name":         "Timeless Coffee",
+    "state":        "CA",
+    "address":      "4252 Piedmont Ave.\nOakland, CA 94611",
+    "url":          "https://timelesscoffee.com",
+
+    "map_x":        215,
+    "map_y":        362
+}

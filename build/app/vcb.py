@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import os
+import json
 from jinja2 import Environment, PackageLoader, StrictUndefined, select_autoescape
 
 class Roaster:
@@ -15,10 +17,24 @@ class Roaster:
         self.roasts     = []
 
 def load_roasters(path):
-    return [ 
-        Roaster('spam', 'Spam Coffee',          map_x=693, map_y=242, state='CA', address="123 Sesame St.\nFremont, CA 12345", url="https://foo.com"),
-        Roaster('hork', 'Hork Coffee Roasters', map_x=215, map_y=362, state='MN', address="1600 Pennsylvania Ave\n MN 98765",   url="https://bar.com"),
-            ]
+    roasters = []
+
+    for entry in os.listdir(path):
+        with open(os.path.join(path, entry), 'rb') as f:
+            d = json.load(f)
+
+        roasters.append(Roaster(
+            d['id'],
+            d['name'],
+            d['map_x'],
+            d['map_y'],
+            d['state'],
+            d['address'],
+            d['url']
+        ))
+
+
+    return sorted(roasters, key=lambda r: r.state)
 
 if __name__ == "__main__":
     roasters = load_roasters('data')
