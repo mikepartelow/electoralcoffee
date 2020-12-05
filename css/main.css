@@ -1,38 +1,10 @@
-html {
-  height: 100%;
-}
-body {
-  height: 100%;
-}
-#map {
-  width: 100%;
-  height: 100%;
-}
-#us-map{
-  display: block;
+.footer {
   position: absolute;
-  top: 0;
-  left: 0;
+  bottom: 0;
   width: 100%;
-  height: 100%;
-}
-path:hover, circle:hover {
-  stroke: #002868 !important;
-  stroke-width:2px;
-  stroke-linejoin: round;
-  fill: #00cc00 !important;
-  cursor: pointer;
-}
-path.biden, circle.biden {
-  stroke: 0 !important;
-  stroke-width:2px;
-  stroke-linejoin: round;
-  fill: #0000cc;
-}
-#path67 {
-  fill: none !important;
-  stroke: #A9A9A9 !important;
-  cursor: default;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 2em;
 }
 #info-box {
   display: none;
@@ -49,30 +21,30 @@ path.biden, circle.biden {
 svg.icon {
   pointer-events: none;
 }
-#whatabout-joe {  
-  content: "";
-  background: url('/victorycoffee/img/joe.jpg');
-  background-position: right bottom;
-  opacity: 0.5;
-  background-repeat: no-repeat;
-  top:0;
-  left:0;
-  bottom:0;
-  right:0;
-  position: absolute;
-  z-index: -1;
-  margin-right: 1em;
-  margin-left: 1em;
-}
 #whatabout {
-  padding-top: 2em;
+  padding-top: 2em;  
+  height: 100%;
+  width: 100%;
+}
+#map {
+  width: 100%;
   height: 100%;
 }
-.espresso-recipe {
-  font-size: 80%;
-  margin-bottom: 0;
+#us-map{
+  width: 100%;
+  height: 100%;
 }
-.tasting-notes {
-  font-size: 80%;
-  padding-left: 2em;
+path.biden, circle.biden {
+  stroke: 0 !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #0000cc;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  height: 100%;
+  margin-bottom: 60px;  
 }
