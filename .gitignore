@@ -1,1 +1,4 @@
 .DS_Store
+*.pyc
+build/app/html/index.html
+*.swp

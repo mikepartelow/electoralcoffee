@@ -1,0 +1,71 @@
+<div id="whatabout-link-list" class="whatabout">
+  <h4>Roasters</h4>
+
+  <ul>
+    {% for roaster in roasters %}
+      <li>
+        <a href="#" class="whatabout-link" data-whatabout="{{ roaster.id }}">{{ roaster.name }}, {{ roaster.state }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
+
+{% for roaster in roasters %}
+
+  <div id="whatabout-{{ roaster.id }}" class="collapse whatabout">
+    <h4 class="h4">{{ roaster.name }}</h4>
+    
+    <div class="text-muted">
+      {{ roaster.address | replace("\n", "<br />") }}
+    </div>
+    
+    <small><a href="{{ roaster.url }}">Visit</a></small>
+    <hr />
+    
+    <table class="table table-sm table-borderless">
+      {% for roast in roaster.roasts %}
+        <thead>
+          <tr><th colspan="2">{{ roast.name }} <small class="text-muted">{{ roast.level }}</small></th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Ordered</th>
+            <td>{{ roast.ordered_at }}</td>
+          </tr>
+          <tr>
+            <th>Roasted</th>
+            <td>{{ roast.roasted_at }}</td>
+          </tr>
+
+          {% if roast.recipe %}
+            <tr><th colspan="2">Espresso Recipe</th></tr>
+            <tr>
+              <td colspan="2">
+                <ul class="espresso-recipe">
+                  <li>{{ roast.recipe.grams_in }} grams in</li>
+                  <li>{{ roast.recipe.grams_out }} grams out</li>
+                  <li>in {{ roast.recipe.seconds }} seconds</li>
+                  <li>at {{ roast.recipe.temperature }}</li>
+                </ul>
+              </td>
+            </tr>
+          {% endif %}
+
+          <tr><th colspan="2">Tasting Notes</th></tr>
+          <tr>                  
+            <td colspan="2">
+              <div class="tasting-notes">
+                {{ roast.tasting_notes | replace("\n", "<br />") }}
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      {% endfor %}
+    </table>
+
+    <a href="#" class="btn btn-primary btn-sm whatabout-back">Back</a>
+  </div> <!-- whatabout-timeless -->
+
+{% endfor %}
+

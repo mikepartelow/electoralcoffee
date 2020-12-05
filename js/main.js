@@ -1,6 +1,6 @@
 $("path, circle").hover(function(e) {
   $('#info-box').css('display','block');
-  $('#info-box').html($(this).data('info'));
+  $('#info-box').html('<div>' + $(this).data('name') + '</div>');
 });
 
 $("path, circle").mouseleave(function(e) {
@@ -21,11 +21,11 @@ $(".whatabout-link").click(function(e) {
   var whatabout = '#whatabout-' + name;
 
   $('#info-box').css('display','block');
-  $('#info-box').html($("#coffee-" + name + ' circle').data('info'));
+  $('#info-box').html('<div>' + $("#coffee-" + name + ' circle').data('name') + '</div>');
 
   var bbox = $("#coffee-" + name)[0].getBoundingClientRect();
 
-  $('#info-box').css('top', bbox.top-174);
+  $('#info-box').css('top', bbox.top-154);
   $('#info-box').css('left', bbox.left);
 
   $('.whatabout').hide();
@@ -44,7 +44,7 @@ $(document).mousemove(function(e) {
 
   if (e.pageX > bbox.left && e.pageX < bbox.right &&
       e.pageY > bbox.top && e.pageY < bbox.bottom) {
-    $('#info-box').css('top', e.pageY-174);
+    $('#info-box').css('top', e.pageY-154);
     $('#info-box').css('left', e.pageX);
   }
 }).mouseover();

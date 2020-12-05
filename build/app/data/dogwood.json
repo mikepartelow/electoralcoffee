@@ -1,0 +1,13 @@
+{
+    "id":           "dogwood",
+    "name":         "Dogwood Coffee",
+    "state":        "MN",
+    "address":      "1209 Tyler Street NE, #150\nMinneapolis, MN 55413",
+    "url":          "https://dogwoodcoffee.com",
+
+    "map_x":        693,
+    "map_y":        242,
+
+    "roasts": [
+    ]
+}

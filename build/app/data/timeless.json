@@ -1,0 +1,28 @@
+{
+    "id":           "timeless",
+    "name":         "Timeless Coffee",
+    "state":        "CA",
+    "address":      "4252 Piedmont Ave.\nOakland, CA 94611",
+    "url":          "https://timelesscoffee.com",
+
+    "map_x":        215,
+    "map_y":        362,
+
+    "roasts": [
+        {
+            "name":         "The Tide",
+            "level":        "Medium-Dark",
+            "ordered_at":   "2020/11/11",
+            "roasted_at":   "???????",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    28,
+                "seconds":      40,
+                "temperature":  "198F (cool)"
+            },
+
+            "tasting_notes": "At relatively cool 198F and relatively low 1:1.5 ratio, heavy body, burnt sugar sweetness, velvety chocolatey finish. Adjust parameters to find the crème brûlée, it's in there (usually). Ages gracefully into a less-complex chocolatey treat.\n\nOne of my all time favorite espresso coffees so far."
+        }
+    ]
+}
