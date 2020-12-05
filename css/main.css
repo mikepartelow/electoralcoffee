@@ -48,3 +48,6 @@ body {
   height: 100%;
   margin-bottom: 60px;  
 }
+#about .modal-title {
+  text-align: center;
+}

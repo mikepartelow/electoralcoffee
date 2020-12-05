@@ -68,4 +68,6 @@ if __name__ == "__main__":
     template = env.get_template('index.html.j2')
 
     with open('html/index.html', 'w') as f:
-        f.write(template.render(roasters=roasters))
+        f.write(template.render(roasters=roasters, 
+                                title="2020 Biden Victory Coffee Project", 
+                                subtitle="Until Morale Improves, The Caffeination Will Continue"))
