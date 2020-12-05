@@ -32,7 +32,7 @@ def roast_from_dict(d):
                     d['level'],
                     d['ordered_at'],
                     d['roasted_at'],
-                    d['tasting_notes']
+                    d.get('tasting_notes')
     )
 
 def load_roasters(path):

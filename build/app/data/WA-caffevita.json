@@ -1,0 +1,25 @@
+{
+    "id":           "caffevita",
+    "name":         "Caffe Vita",
+    "state":        "WA",
+    "address":      "813 5th Avenue North\nSeattle, WA 98109",
+    "url":          "https://caffevita.com",
+
+    "map_x":        266,
+    "map_y":        130,
+
+    "roasts": [
+         {
+            "name":         "Caffe Del Sol",
+            "level":        "?",
+            "ordered_at":   "2020/11/30",
+            "roasted_at":   "?"
+        },
+        {
+            "name":         "Queen City",
+            "level":        "?",
+            "ordered_at":   "2020/11/30",
+            "roasted_at":   "?"
+        }
+    ]
+}
