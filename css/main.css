@@ -51,3 +51,31 @@ body {
 #about .modal-title {
   text-align: center;
 }
+.whatabout-back {
+  margin-top: 1em;
+}
+.address {
+  font-size: 85%;
+}
+.roast h5, h6 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.roast .info {
+  font-size: 85%;
+  padding-left: 1em;
+  padding-bottom: .5em;
+}
+.roast .recipe {
+  font-size: 85%;
+  padding-left: 1em;
+}
+.roast hr {
+  margin-top: .2em;
+  margin-bottom: .4em;
+}
+.roast .tasting-notes {
+  font-size: 85%;
+  padding-left: 1em;
+  padding-bottom: 2em;
+}

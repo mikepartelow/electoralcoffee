@@ -16,53 +16,46 @@
   <div id="whatabout-{{ roaster.id }}" class="collapse whatabout">
     <h4 class="h4">{{ roaster.name }}</h4>
     
-    <div class="text-muted">
+    <div class="address text-muted">
       {{ roaster.address | replace("\n", "<br />") }}
     </div>
     
     <small><a href="{{ roaster.url }}">Visit</a></small>
+    
     <hr />
     
-    <table class="table table-sm table-borderless">
+    <div class="roasts">
       {% for roast in roaster.roasts %}
-        <thead>
-          <tr><th colspan="2">{{ roast.name }} <small class="text-muted">{{ roast.level }}</small></th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>Ordered</th>
-            <td>{{ roast.ordered_at }}</td>
-          </tr>
-          <tr>
-            <th>Roasted</th>
-            <td>{{ roast.roasted_at }}</td>
-          </tr>
-
+        <div class="roast">
+          <h5><i class="fa fa-coffee"></i> {{ roast.name }}</h5>
+          <div class="info text-muted">
+            <div class="level">{{ roast.level }} Roast</div>
+            <div class="ordered_at">Ordered: {{ roast.ordered_at }}</div>
+            <div class="roasted_at">Roasted: {{ roast.roasted_at }}</div>
+          </div>          
+          
           {% if roast.recipe %}
-            <tr><th colspan="2">Espresso Recipe</th></tr>
-            <tr>
-              <td colspan="2">
-                <ul class="espresso-recipe">
-                  <li>{{ roast.recipe.grams_in }} grams in</li>
-                  <li>{{ roast.recipe.grams_out }} grams out</li>
-                  <li>in {{ roast.recipe.seconds }} seconds</li>
-                  <li>at {{ roast.recipe.temperature }}</li>
-                </ul>
-              </td>
-            </tr>
+            <h6>Espresso Recipe</h6>
+            <hr />
+            <ul class="recipe list-unstyled text-muted">
+              <li>{{ roast.recipe.grams_in }} grams in</li>
+              <li>{{ roast.recipe.grams_out }} grams out</li>
+              <li>in {{ roast.recipe.seconds }} seconds</li>
+              <li>at {{ roast.recipe.temperature }}</li>
+            </ul>
           {% endif %}
 
-          <tr><th colspan="2">Tasting Notes</th></tr>
-          <tr>                  
-            <td colspan="2">
-              <div class="tasting-notes">
+          {% if roast.tasting_notes %}
+            <h6>Tasting Notes</h6>
+            <hr />
+              <div class="tasting-notes text-muted">
                 {{ roast.tasting_notes | replace("\n", "<br />") }}
               </div>
-            </td>
-          </tr>
-        </tbody>
+            </h6>
+          {% endif %}
+        </div> <!-- roast -->
       {% endfor %}
-    </table>
+    </div> <!-- roasts -->
 
     <a href="#" class="btn btn-primary btn-sm whatabout-back">Back</a>
   </div> <!-- whatabout-timeless -->

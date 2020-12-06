@@ -9,6 +9,7 @@
     <meta name="author" content="Mike Partelow">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css?v=1.0">
   </head>
 
@@ -147,41 +148,30 @@
   <div id="whatabout-linea" class="collapse whatabout">
     <h4 class="h4">Linea Caffe</h4>
     
-    <div class="text-muted">
+    <div class="address text-muted">
       3417 18th St<br />San Francisco, CA 94110
     </div>
     
     <small><a href="https://lineacaffe.com">Visit</a></small>
+    
     <hr />
     
-    <table class="table table-sm table-borderless">
+    <div class="roasts">
       
-        <thead>
-          <tr><th colspan="2">Espresso Linea Blend <small class="text-muted">?</small></th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>Ordered</th>
-            <td>2020/12/02</td>
-          </tr>
-          <tr>
-            <th>Roasted</th>
-            <td>2020/12/03</td>
-          </tr>
-
+        <div class="roast">
+          <h5><i class="fa fa-coffee"></i> Espresso Linea Blend</h5>
+          <div class="info text-muted">
+            <div class="level">? Roast</div>
+            <div class="ordered_at">Ordered: 2020/12/02</div>
+            <div class="roasted_at">Roasted: 2020/12/03</div>
+          </div>          
+          
           
 
-          <tr><th colspan="2">Tasting Notes</th></tr>
-          <tr>                  
-            <td colspan="2">
-              <div class="tasting-notes">
-                None
-              </div>
-            </td>
-          </tr>
-        </tbody>
+          
+        </div> <!-- roast -->
       
-    </table>
+    </div> <!-- roasts -->
 
     <a href="#" class="btn btn-primary btn-sm whatabout-back">Back</a>
   </div> <!-- whatabout-timeless -->
@@ -191,53 +181,46 @@
   <div id="whatabout-timeless" class="collapse whatabout">
     <h4 class="h4">Timeless Coffee</h4>
     
-    <div class="text-muted">
+    <div class="address text-muted">
       4252 Piedmont Ave.<br />Oakland, CA 94611
     </div>
     
     <small><a href="https://timelesscoffee.com">Visit</a></small>
+    
     <hr />
     
-    <table class="table table-sm table-borderless">
+    <div class="roasts">
       
-        <thead>
-          <tr><th colspan="2">The Tide <small class="text-muted">Medium-Dark</small></th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>Ordered</th>
-            <td>2020/11/11</td>
-          </tr>
-          <tr>
-            <th>Roasted</th>
-            <td>2020/11/11</td>
-          </tr>
-
+        <div class="roast">
+          <h5><i class="fa fa-coffee"></i> The Tide</h5>
+          <div class="info text-muted">
+            <div class="level">Medium-Dark Roast</div>
+            <div class="ordered_at">Ordered: 2020/11/11</div>
+            <div class="roasted_at">Roasted: 2020/11/11</div>
+          </div>          
           
-            <tr><th colspan="2">Espresso Recipe</th></tr>
-            <tr>
-              <td colspan="2">
-                <ul class="espresso-recipe">
-                  <li>18 grams in</li>
-                  <li>28 grams out</li>
-                  <li>in 40 seconds</li>
-                  <li>at 198F (cool)</li>
-                </ul>
-              </td>
-            </tr>
+          
+            <h6>Espresso Recipe</h6>
+            <hr />
+            <ul class="recipe list-unstyled text-muted">
+              <li>18 grams in</li>
+              <li>28 grams out</li>
+              <li>in 40 seconds</li>
+              <li>at 198F (cool)</li>
+            </ul>
           
 
-          <tr><th colspan="2">Tasting Notes</th></tr>
-          <tr>                  
-            <td colspan="2">
-              <div class="tasting-notes">
+          
+            <h6>Tasting Notes</h6>
+            <hr />
+              <div class="tasting-notes text-muted">
                 At relatively cool 198F and relatively low 1:1.5 ratio, heavy body, burnt sugar sweetness, velvety chocolatey finish. Adjust parameters to find the crème brûlée, it's in there (usually). Ages gracefully into a less-complex chocolatey treat.<br /><br />One of my all time favorite espresso coffees so far.
               </div>
-            </td>
-          </tr>
-        </tbody>
+            </h6>
+          
+        </div> <!-- roast -->
       
-    </table>
+    </div> <!-- roasts -->
 
     <a href="#" class="btn btn-primary btn-sm whatabout-back">Back</a>
   </div> <!-- whatabout-timeless -->
@@ -247,16 +230,66 @@
   <div id="whatabout-dogwood" class="collapse whatabout">
     <h4 class="h4">Dogwood Coffee</h4>
     
-    <div class="text-muted">
+    <div class="address text-muted">
       1209 Tyler Street NE, #150<br />Minneapolis, MN 55413
     </div>
     
     <small><a href="https://dogwoodcoffee.com">Visit</a></small>
+    
     <hr />
     
-    <table class="table table-sm table-borderless">
+    <div class="roasts">
       
-    </table>
+        <div class="roast">
+          <h5><i class="fa fa-coffee"></i> Bear Hug // Peru + Costa Rica</h5>
+          <div class="info text-muted">
+            <div class="level">Medium Roast</div>
+            <div class="ordered_at">Ordered: 2020/11/19</div>
+            <div class="roasted_at">Roasted: 2020/11/23</div>
+          </div>          
+          
+          
+            <h6>Espresso Recipe</h6>
+            <hr />
+            <ul class="recipe list-unstyled text-muted">
+              <li>18 grams in</li>
+              <li>40 grams out</li>
+              <li>in 40 seconds</li>
+              <li>at 201F (hot)</li>
+            </ul>
+          
+
+          
+            <h6>Tasting Notes</h6>
+            <hr />
+              <div class="tasting-notes text-muted">
+                Sweet, not dry, chocolate finish. Rewards good technique. Cooler temperature reveals juicy dried cherries.<br /><br />Makes effortlessly excellent pourover, less easy to make excellent espresso.
+              </div>
+            </h6>
+          
+        </div> <!-- roast -->
+      
+        <div class="roast">
+          <h5><i class="fa fa-coffee"></i> Panorama // Ethiopia + Colombia</h5>
+          <div class="info text-muted">
+            <div class="level">Medium Roast</div>
+            <div class="ordered_at">Ordered: 2020/11/19</div>
+            <div class="roasted_at">Roasted: 2020/11/23</div>
+          </div>          
+          
+          
+
+          
+            <h6>Tasting Notes</h6>
+            <hr />
+              <div class="tasting-notes text-muted">
+                As pourover, caramel sweetness over a chocolatey classic "coffee" backbone. I liked it a lot. Easy to brew a great cup.
+              </div>
+            </h6>
+          
+        </div> <!-- roast -->
+      
+    </div> <!-- roasts -->
 
     <a href="#" class="btn btn-primary btn-sm whatabout-back">Back</a>
   </div> <!-- whatabout-timeless -->
@@ -266,66 +299,43 @@
   <div id="whatabout-caffevita" class="collapse whatabout">
     <h4 class="h4">Caffe Vita</h4>
     
-    <div class="text-muted">
+    <div class="address text-muted">
       813 5th Avenue North<br />Seattle, WA 98109
     </div>
     
     <small><a href="https://caffevita.com">Visit</a></small>
+    
     <hr />
     
-    <table class="table table-sm table-borderless">
+    <div class="roasts">
       
-        <thead>
-          <tr><th colspan="2">Caffe Del Sol <small class="text-muted">?</small></th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>Ordered</th>
-            <td>2020/11/30</td>
-          </tr>
-          <tr>
-            <th>Roasted</th>
-            <td>?</td>
-          </tr>
-
+        <div class="roast">
+          <h5><i class="fa fa-coffee"></i> Caffe Del Sol</h5>
+          <div class="info text-muted">
+            <div class="level">? Roast</div>
+            <div class="ordered_at">Ordered: 2020/11/30</div>
+            <div class="roasted_at">Roasted: ?</div>
+          </div>          
+          
           
 
-          <tr><th colspan="2">Tasting Notes</th></tr>
-          <tr>                  
-            <td colspan="2">
-              <div class="tasting-notes">
-                None
-              </div>
-            </td>
-          </tr>
-        </tbody>
+          
+        </div> <!-- roast -->
       
-        <thead>
-          <tr><th colspan="2">Queen City <small class="text-muted">?</small></th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>Ordered</th>
-            <td>2020/11/30</td>
-          </tr>
-          <tr>
-            <th>Roasted</th>
-            <td>?</td>
-          </tr>
-
+        <div class="roast">
+          <h5><i class="fa fa-coffee"></i> Queen City</h5>
+          <div class="info text-muted">
+            <div class="level">? Roast</div>
+            <div class="ordered_at">Ordered: 2020/11/30</div>
+            <div class="roasted_at">Roasted: ?</div>
+          </div>          
+          
           
 
-          <tr><th colspan="2">Tasting Notes</th></tr>
-          <tr>                  
-            <td colspan="2">
-              <div class="tasting-notes">
-                None
-              </div>
-            </td>
-          </tr>
-        </tbody>
+          
+        </div> <!-- roast -->
       
-    </table>
+    </div> <!-- roasts -->
 
     <a href="#" class="btn btn-primary btn-sm whatabout-back">Back</a>
   </div> <!-- whatabout-timeless -->

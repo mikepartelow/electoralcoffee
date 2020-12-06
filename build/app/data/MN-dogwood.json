@@ -9,5 +9,30 @@
     "map_y":        242,
 
     "roasts": [
+        {
+            "name":         "Bear Hug // Peru + Costa Rica",
+            "level":        "Medium",
+            "ordered_at":   "2020/11/19",
+            "roasted_at":   "2020/11/23",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    40,
+                "seconds":      40,
+                "temperature":  "201F (hot)"
+            },
+
+            "tasting_notes": "Sweet, not dry, chocolate finish. Rewards good technique. Cooler temperature reveals juicy dried cherries.\n\nMakes effortlessly excellent pourover, less easy to make excellent espresso."
+        },
+
+        {
+            "name":         "Panorama // Ethiopia + Colombia",
+            "level":        "Medium",
+            "ordered_at":   "2020/11/19",
+            "roasted_at":   "2020/11/23",
+
+            "tasting_notes": "As pourover, caramel sweetness over a chocolatey classic \"coffee\" backbone. I liked it a lot. Easy to brew a great cup."
+        }
+
     ]
 }
