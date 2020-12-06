@@ -17,14 +17,30 @@ class Roaster:
         self.roasts     = roasts
 
 class Roast:
-    def __init__(self, name, level, ordered_at, roasted_at, tasting_notes):
+    def __init__(self, name, level, ordered_at, roasted_at, tasting_notes, recipe):
         self.name           = name
         self.level          = level
         self.ordered_at     = ordered_at
         self.roasted_at     = roasted_at
         self.tasting_notes  = tasting_notes
+        self.recipe         = recipe
 
-        self.recipe         = None
+class Recipe:
+    def __init__(self, grams_in, grams_out, seconds, temperature):
+        self.grams_in       = grams_in
+        self.grams_out      = grams_out
+        self.seconds        = seconds
+        self.temperature    = temperature
+
+def recipe_from_dict(d):
+    if d:
+        return Recipe(
+                        d['grams_in'],
+                        d['grams_out'],
+                        d['seconds'],
+                        d['temperature']
+        )
+
 
 def roast_from_dict(d):
     return Roast(
@@ -32,7 +48,8 @@ def roast_from_dict(d):
                     d['level'],
                     d['ordered_at'],
                     d['roasted_at'],
-                    d.get('tasting_notes')
+                    d.get('tasting_notes'),
+                    recipe_from_dict(d.get('recipe'))
     )
 
 def load_roasters(path):
