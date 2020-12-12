@@ -11,15 +11,34 @@
     "roasts": [
          {
             "name":         "Caffe Del Sol",
-            "level":        "?",
+            "level":        "Medium",
             "ordered_at":   "2020/11/30",
-            "roasted_at":   "?"
+            "roasted_at":   "2020/12/03",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    28,
+                "seconds":      40,
+                "temperature":  "200F"
+            },
+
+            "tasting_notes": "Thick and velvety, chocolate and delicious, hints of berries. Elusive honeyed sweetness. Comfortable and easy to brew very good shots."
+
         },
         {
             "name":         "Queen City",
-            "level":        "?",
+            "level":        "Dark",
             "ordered_at":   "2020/11/30",
-            "roasted_at":   "?"
+            "roasted_at":   "2020/12/03",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    22,
+                "seconds":      40,
+                "temperature":  "196F (very cool)"
+            },
+
+            "tasting_notes": "At very low temps (196F), produces a balanced “old school” espresso. Assertive but not overbearing roast character, thick body, best shots feature burnt raisin sweetness. Satisfying ristretto."
         }
     ]
 }
