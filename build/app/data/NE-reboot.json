@@ -1,0 +1,27 @@
+{
+    "id":           "reboot",
+    "name":         "Reboot Roasting",
+    "state":        "NE",
+    "address":      "Omaha NE",
+    "url":          "https://www.rebootroasting.com/",
+
+    "map_x":        652,
+    "map_y":        328,
+
+    "roasts": [
+        {
+            "name":         "Papua New Guinea Kindeng",
+            "level":        "?",
+            "ordered_at":   "2020/12/11",
+            "roasted_at":   "?"
+        },
+
+        {
+            "name":         "El Salvador Finca Calera",
+            "level":        "?",
+            "ordered_at":   "2020/12/11",
+            "roasted_at":   "?"
+        }
+
+    ]
+}
