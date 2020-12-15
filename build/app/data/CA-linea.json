@@ -11,9 +11,18 @@
     "roasts": [
          {
             "name":         "Espresso Linea Blend",
-            "level":        "?",
+            "level":        "Medium",
             "ordered_at":   "2020/12/02",
-            "roasted_at":   "2020/12/03"
+            "roasted_at":   "2020/12/03",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    "28-32",
+                "seconds":      40,
+                "temperature":  "198F (cool)"
+            },
+
+            "tasting_notes": "Melted milk chocolate velvet. An eternal favorite. Top notch shots over a wide range of yields. Delicious."
         }
     ]
 }
