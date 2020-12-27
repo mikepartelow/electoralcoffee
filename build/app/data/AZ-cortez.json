@@ -11,16 +11,34 @@
     "roasts": [
          {
             "name":         "Espresso Apex",
-            "level":        "?",
+            "level":        "Medium",
             "ordered_at":   "2020/12/13",
-            "roasted_at":   "?"
+            "roasted_at":   "2020/12/14",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    "34",
+                "seconds":      29,
+                "temperature":  "198F (cool)"
+            },
+
+            "tasting_notes": "Wild, funky, occasionally sweet, rewarding, complex and challenging. Great as drip. Very far out of the ordinary, in a good way."
         },
 
         {
             "name":         "Primo",
-            "level":        "?",
+            "level":        "Medium",
             "ordered_at":   "2020/12/13",
-            "roasted_at":   "?"
+            "roasted_at":   "2020/12/14",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    35,
+                "seconds":      35,
+                "temperature":  "198F (cool)"
+            },
+
+            "tasting_notes": "Complex, interesting, occasaionally sweet, unusual, slightly bizarre, finicky and difficult. Wonderfully weird. A new favorite."
         }
     ]
 }

@@ -10,18 +10,19 @@
 
     "roasts": [
         {
-            "name":         "Papua New Guinea Kindeng",
-            "level":        "?",
+            "name":         "El Salvador Finca Calera",
+            "level":        "Medium",
             "ordered_at":   "2020/12/11",
-            "roasted_at":   "?"
+            "roasted_at":   "2020/12/14",
+
+            "tasting_notes": "Delightful. Candy sweet, chocolate backbone, could not ask for a better cup of pour over."
         },
 
         {
-            "name":         "El Salvador Finca Calera",
-            "level":        "?",
+            "name":         "Papua New Guinea Kindeng",
+            "level":        "Medium-Dark",
             "ordered_at":   "2020/12/11",
-            "roasted_at":   "?"
+            "roasted_at":   "2020/12/14"
         }
-
     ]
 }
