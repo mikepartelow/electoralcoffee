@@ -1,0 +1,44 @@
+{
+    "id":           "tandem",
+    "name":         "Tandem Coffee Roasters",
+    "state":        "ME",
+    "address":      "122 Anderson Street\nPortland, Maine 04101",
+    "url":          "https://www.tandemcoffee.com/",
+
+    "map_x":        1060,
+    "map_y":        226,
+
+    "roasts": [
+         {
+            "name":         "Time & Temperature Espresso",
+            "level":        "Medium",
+            "ordered_at":   "2020/12/31",
+            "roasted_at":   "2021/01/04",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    "39.5",
+                "seconds":      37,
+                "temperature":  "200F"
+            },
+
+            "tasting_notes": "Sweet, fruity, tart cherries, not so much chocolate. Not really my style, but looking forward to playing more with this.\n\nTandem calls it \"Effervescent, electric, and just plain cool.\"\n\nI totally agree."
+        },
+
+        {
+            "name":         "Stoker",
+            "level":        "Kinda Dark",
+            "ordered_at":   "2020/12/31",
+            "roasted_at":   "2021/01/04",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    38,
+                "seconds":      27,
+                "temperature":  "200F"
+            },
+
+            "tasting_notes": "Espresso: Balanced, sweet, delicate, pleasantly coffee grounds/chocolate, but lighter bodied. Tastes \"darker\" than it looks. Delicious.\n\nDrip: Outstanding! Fruity, chocolatey, full bodied. Perfect."
+        }
+    ]
+}
