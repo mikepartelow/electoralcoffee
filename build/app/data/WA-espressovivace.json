@@ -1,0 +1,29 @@
+{
+    "id":           "espressovivace",
+    "name":         "Espresso Vicace",
+    "state":        "WA",
+    "address":      "532 Broadway Ave East\nSeattle WA 98102",
+    "url":          "https://https://espressovivace.com/",
+
+    "map_x":        268,
+    "map_y":        130,
+
+    "roasts": [
+         {
+            "name":         "Dolce Blend",
+            "level":        "Dark",
+            "ordered_at":   "2021/01/16",
+            "roasted_at":   "",
+
+            "recipe": {
+                "grams_in":     0,
+                "grams_out":    0,
+                "seconds":      0,
+                "temperature":  "200F"
+            },
+
+            "tasting_notes": "The Ultimate. The GOAT. The reason I own an espresso machine. The reason I drink espresso at all. Like the Dread Pirate Roberts, I have never seen its equal.\n\nTastes good, man."
+
+        }
+    ]
+}

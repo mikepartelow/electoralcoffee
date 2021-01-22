@@ -1,0 +1,30 @@
+{
+    "id":           "craftsmancliff",
+    "name":         "Craftsman Cliff Roasters",
+    "state":        "CT",
+    "address":      "34 Broadway\nNorwich, CT 06360",
+    "url":          "https://craftsmancliffroasters.com/",
+
+    "map_x":        1040,
+    "map_y":        277,
+
+    "roasts": [
+         {
+            "name":         "Cool Dude (Colombia)",
+            "level":        "Medium-Dark",
+            "ordered_at":   "2021/01/21",
+            "roasted_at":   "",
+
+            "tasting_notes": "?"
+        },
+
+        {
+            "name":         "Goodie (Guatemala)",
+            "level":        "Medium-Dark",
+            "ordered_at":   "2021/01/21",
+            "roasted_at":   "",
+
+            "tasting_notes": ""
+        }
+    ]
+}

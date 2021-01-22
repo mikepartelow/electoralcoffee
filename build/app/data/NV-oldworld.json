@@ -1,0 +1,30 @@
+{
+    "id":           "oldworld",
+    "name":         "Old World Coffee Lab",
+    "state":        "NV",
+    "address":      "104 California Ave\nReno, Nevada 89509, US",
+    "url":          "https://oldworldcoffee.co/",
+
+    "map_x":        260,
+    "map_y":        320,
+
+    "roasts": [
+         {
+            "name":         "Firefly Espresso Blend",
+            "level":        "?",
+            "ordered_at":   "2021/01/07",
+            "roasted_at":   "?",
+
+            "tasting_notes": "Delicious as drip, complex, sweet and chocolatey, perfectly balanced, delicate but assertive. Subtle tart cherries in the best cups. Nice as espresso but I prefer it as drip."
+        },
+
+        {
+            "name":         "Mexico - Chiapas - Mayan Harvest",
+            "level":        "?",
+            "ordered_at":   "2021/01/07",
+            "roasted_at":   "?",
+
+            "tasting_notes": "A perfect Mexican coffee. Chocolatey, sweet, round, syrupy body. Delightful. What is Mexican coffee supposed to taste like? This."
+        }
+    ]
+}
