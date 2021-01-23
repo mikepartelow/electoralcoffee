@@ -11,18 +11,18 @@
     "roasts": [
          {
             "name":         "Firefly Espresso Blend",
-            "level":        "?",
+            "level":        "Medium-Dark",
             "ordered_at":   "2021/01/07",
-            "roasted_at":   "?",
+            "roasted_at":   "2021/01/08",
 
             "tasting_notes": "Delicious as drip, complex, sweet and chocolatey, perfectly balanced, delicate but assertive. Subtle tart cherries in the best cups. Nice as espresso but I prefer it as drip."
         },
 
         {
             "name":         "Mexico - Chiapas - Mayan Harvest",
-            "level":        "?",
+            "level":        "Medium-Dark",
             "ordered_at":   "2021/01/07",
-            "roasted_at":   "?",
+            "roasted_at":   "2021/01/08",
 
             "tasting_notes": "A perfect Mexican coffee. Chocolatey, sweet, round, syrupy body. Delightful. What is Mexican coffee supposed to taste like? This."
         }
