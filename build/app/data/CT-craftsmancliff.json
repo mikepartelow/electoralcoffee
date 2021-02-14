@@ -13,18 +13,18 @@
             "name":         "Cool Dude (Colombia)",
             "level":        "Medium-Dark",
             "ordered_at":   "2021/01/21",
-            "roasted_at":   "",
+            "roasted_at":   "2021/01/21",
 
-            "tasting_notes": "?"
+            "tasting_notes": "Darker than I expected, darker than I prefer. Fine for cold brew, pretty good for an old school ristretto. Not what I'm looking for in drip."
         },
 
         {
             "name":         "Goodie (Guatemala)",
             "level":        "Medium-Dark",
             "ordered_at":   "2021/01/21",
-            "roasted_at":   "",
+            "roasted_at":   "2021/01/21",
 
-            "tasting_notes": ""
+            "tasting_notes": "Darker than I expected, darker than I prefer. Fine for cold brew, pretty good for an old school ristretto. Not what I'm looking for in drip."
         }
     ]
 }

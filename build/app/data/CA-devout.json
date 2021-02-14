@@ -1,0 +1,30 @@
+{
+    "id":           "devout",
+    "name":         "Devout Coffee",
+    "state":        "CA",
+    "address":      "37323 Niles Blvd.\nFremont, CA 94536",
+    "url":          "https://www.devoutcoffee.com/",
+
+    "map_x":        214,
+    "map_y":        370,
+
+    "roasts": [
+        {
+            "name":         "DAMBI UDDO // ETHIOPIA",
+            "level":        "Medium",
+            "ordered_at":   "2021/01/27",
+            "roasted_at":   "2021/01/26",
+
+            "tasting_notes": "Best roaster of Ethiopian coffee I have found. Berries on top of chocolate. As good as it gets."
+        },
+        {
+            "name":         "LOS ALPES // HONDURAS",
+            "level":        "Medium",
+            "ordered_at":   "2021/01/27",
+            "roasted_at":   "2021/01/26",
+
+            "tasting_notes": "Classic Central American chocolate and honey. Delicious."
+        }
+
+    ]
+}
