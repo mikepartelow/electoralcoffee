@@ -1,0 +1,37 @@
+{
+    "id":           "threeships",
+    "name":         "Three Ships Coffee",
+    "state":        "VA",
+    "address":      "607 19th St, Virginia Beach, VA 23451",
+    "url":          "https://threeshipscoffee.com",
+
+    "map_x":        1000,
+    "map_y":        390,
+
+    "roasts": [
+         {
+            "name":         "First Landing",
+            "level":        "Medium",
+            "ordered_at":   "2021/02/09",
+            "roasted_at":   "2021/02/17",
+
+            "recipe": {
+                "grams_in":     17,
+                "grams_out":    "36",
+                "seconds":      40,
+                "temperature":  "202F (hot)"
+            },
+
+            "tasting_notes": "Tart! Sweet, fruity, satisfying milk chocolate long finish. Complex cherry attack with a mild chocolate finish. Great contrast after weeks of darker rosdted chocolate bombs."
+        },
+
+        {
+            "name":         "Kanzu Lot 7, Rwanda",
+            "level":        "Medium",
+            "ordered_at":   "2021/02/09",
+            "roasted_at":   "2021/02/17",
+
+            "tasting_notes": "outstanding, could not be better. sweet honey, graham crackers, toast. baking spices. incredibly satisfying."
+        }
+    ]
+}

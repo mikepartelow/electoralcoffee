@@ -1,0 +1,39 @@
+{
+    "id":           "trailhead",
+    "name":         "Trailhead Coffee Roasters",
+    "state":        "OR",
+    "address":      "118 NE Martin Luther King Jr Blvd\nPortland, OR 97232",
+    "url":          "https://www.trailheadcoffeeroasters.com",
+
+    "map_x":        245,
+    "map_y":        185,
+
+    "roasts": [
+         {
+            "name":         "Provisions",
+            "level":        "Medium",
+            "ordered_at":   "2021/02/24",
+            "roasted_at":   "2021/02/24",
+
+            "tasting_notes": "smooth, delicious, relaxing, spot-hitter. not really \"exciting\" but in a good way. excellent thermos coffee. chocolatey and gets more so as it cools, essential characteristic for thermos coffee. spot hitter! mulled wine aroma!"
+        },
+
+         {
+            "name":         "Provisions Black Label",
+            "level":        "Medium",
+            "ordered_at":   "2021/02/24",
+            "roasted_at":   "2021/02/24",
+
+            "tasting_notes": "really good but prefer Provisions or All Day, and so many other blends to try. would not buy again but ONLY because Trailhead has so many other tempting choices to explore."
+        },
+
+         {
+            "name":         "All Day",
+            "level":        "Medium",
+            "ordered_at":   "2021/02/24",
+            "roasted_at":   "2021/02/24",
+
+            "tasting_notes": "does what it says on the tin. toasty, chocolatey, fruity, perfectly balanced. could definitely drink this all day!"
+        }
+    ]
+}
