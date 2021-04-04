@@ -45,6 +45,6 @@ $(document).mousemove(function(e) {
   if (e.pageX > bbox.left && e.pageX < bbox.right &&
       e.pageY > bbox.top && e.pageY < bbox.bottom) {
     $('#info-box').css('top', e.pageY-154);
-    $('#info-box').css('left', e.pageX);
+    $('#info-box').css('left', e.pageX+8);
   }
 }).mouseover();

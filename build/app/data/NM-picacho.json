@@ -1,0 +1,30 @@
+{
+    "id":           "picacho",
+    "name":         "Picacho Coffee Roasters",
+    "state":        "NM",
+    "address":      "200 Conway Ave. Unit: A\nLas Cruces, NM 88005",
+    "url":          "https://picacho.coffee/",
+
+    "map_x":        452,
+    "map_y":        518,
+
+    "roasts": [
+        {
+            "name":         "Espresso Spadafora",
+            "level":        "Dark",
+            "ordered_at":   "2021/03/23",
+            "roasted_at":   "unmarked",
+
+            "tasting_notes": "Tasty classic ristretto. Buttery, chocolate, thick."
+        },
+
+        {
+            "name":         "Colombia Supremo Bucaramanga Santander",
+            "level":        "Dark",
+            "ordered_at":   "2021/03/23",
+            "roasted_at":   "2021/03/24",
+
+            "tasting_notes": "Darker than I expected, but not outside the advertised roast level. Too dark for my taste in drip, but makes an interesting single origin espresso. As espresso, buttery, roasty, heavy and peppery."
+        }
+    ]
+}
