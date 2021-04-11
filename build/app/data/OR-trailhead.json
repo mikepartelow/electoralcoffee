@@ -27,13 +27,23 @@
             "tasting_notes": "really good but prefer Provisions or All Day, and so many other blends to try. would not buy again but ONLY because Trailhead has so many other tempting choices to explore."
         },
 
-         {
+        {
             "name":         "All Day",
             "level":        "Medium",
             "ordered_at":   "2021/02/24",
             "roasted_at":   "2021/02/24",
 
             "tasting_notes": "does what it says on the tin. toasty, chocolatey, fruity, perfectly balanced. could definitely drink this all day!"
+        },
+
+        {
+            "name":         "Baylee Roaster's Reserve D.R. of Congo: Virunga National Park",
+            "level":        "Medium",
+            "ordered_at":   "2021/03/28",
+            "roasted_at":   "2021/03/29",
+
+            "tasting_notes": "Earthy, winey, full body, deliciously complex. Change the ratios to experience chocolate or red wine. Trailhead is one of my most exciting discoveries though the BVCP!"
         }
+
     ]
 }
