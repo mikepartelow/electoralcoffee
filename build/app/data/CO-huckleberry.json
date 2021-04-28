@@ -1,0 +1,30 @@
+{
+    "id":           "huckleberry",
+    "name":         "Huckleberry Roasters",
+    "state":        "CO",
+    "address":      "4301 Pecos Street\nDenver, CO 80211",
+    "url":          "https://huckleberryroasters.com/",
+
+    "map_x":        505,
+    "map_y":        355,
+
+    "roasts": [
+        {
+            "name":         "Ethiopia Raro Nansebo Natural",
+            "level":        "Medium-Light",
+            "ordered_at":   "2021/04/20",
+            "roasted_at":   "2021/04/22",
+
+            "tasting_notes": "Great Ethiopian. Satisfyingly bright. Sweet, complex. Coconuts, berries, tea."
+        },
+        {
+            "name":         "Brazil Sitio Santo Antonio",
+            "level":        "Medium",
+            "ordered_at":   "2021/04/20",
+            "roasted_at":   "2021/04/22",
+
+            "tasting_notes": "Solid classic coffee flavors. Notes of coffee with hints of coffee. You want a coffee? This is coffee. Put it in your diner mug and do your best Agent Cooper impression. Flawlessly unexciting, vaguely sweet, mildly chocolatey."
+        }
+
+    ]
+}

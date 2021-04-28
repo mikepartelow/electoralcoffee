@@ -1,0 +1,37 @@
+{
+    "id":           "kestrel",
+    "name":         "Kestrel Coffee Roasters",
+    "state":        "VT",
+    "address":      "530 Community Dr\nSouth Burlington, VT 05403",
+    "url":          "https://www.kestrelcoffees.com/",
+
+    "map_x":        1018,
+    "map_y":        212,
+
+    "roasts": [
+         {
+            "name":         "Faster Than Light - Espresso Blend",
+            "level":        "Medium",
+            "ordered_at":   "2021/04/10",
+            "roasted_at":   "2021/04/12",
+
+            "recipe": {
+                "grams_in":     17,
+                "grams_out":    32,
+                "seconds":      35,
+                "temperature":  "200F"
+            },
+
+            "tasting_notes": "I enjoyed it most when it was very fresh, less so as it aged. When fresh, pleasently tart cherries, smooth, lingering chocolate finish."
+        },
+
+        {
+            "name":         "Candelilla, Tarrazu, Costa Rica",
+            "level":        "Medium-Light",
+            "ordered_at":   "2021/04/10",
+            "roasted_at":   "2021/04/12",
+
+            "tasting_notes": "First cup provoked a \"Wow!\". Sugar cane sweetness, milk chocolate, edgy brightness that doesn't cross the line. Delicious and impressive."
+        }
+    ]
+}
