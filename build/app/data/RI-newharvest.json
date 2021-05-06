@@ -1,0 +1,37 @@
+{
+    "id":           "newharvest",
+    "name":         "New Harvest Coffee Roasters",
+    "state":        "RI",
+    "address":      "999 Main Street, Unit 108\nPawtucket, RI 02860",
+    "url":          "https://newharvestcoffee.com",
+
+    "map_x":        1052,
+    "map_y":        270,
+
+    "roasts": [
+         {
+            "name":         "Igale Songwe, Tanzania",
+            "level":        "Light",
+            "ordered_at":   "2021/04/30",
+            "roasted_at":   "2021/04/29",
+
+            "tasting_notes": "To my eye, it looks a lot darker than \"light\". But it's definitely a light roast in the sense of Not Burning Away The Flavors, so who cares what color I think it is? In the cup, this is possibly the best coffee I've had all year. There's a burnt caramel pointedness - honestly the rest doesn’t matter since the burnt caramel is so compelling to me. But the rest is also wonderful: floral, surprisingly delightful heavy body, clean sweet finish that evaporates to a chocolate presence. Over delivers. My new favorite roaster."
+        },
+
+        {
+            "name":         "Whisper Espresso Blend",
+            "level":        "Medium",
+            "ordered_at":   "2021/04/30",
+            "roasted_at":   "2021/04/28",
+
+            "recipe": {
+                "grams_in":     20,
+                "grams_out":    32,
+                "seconds":      45,
+                "temperature":  "200F"
+            },
+
+            "tasting_notes": "My first shot was bursting with potential, and even not dialed in yet, deliciously satisfying and already a favorite. After one shot! Savory at first, muddled flavor (my fault: not dialed in yet), syrupy thick, giving way to a sweetness that informs me what \"sweetness\" is supposed to mean in coffee. Long, delightful chocolate finish. I didn't get the fruit/berries. I will keep looking! Reminds me of my West Coast favorite Timeless. Looking forward to my next shot."
+        }
+    ]
+}
