@@ -1,0 +1,30 @@
+{
+    "id":           "portrait",
+    "name":         "Portrait Coffee",
+    "state":        "GA",
+    "address":      "Atlanta, Georgia",
+    "url":          "https://portrait.coffee",
+
+    "map_x":        870,
+    "map_y":        490,
+
+    "roasts": [
+         {
+            "name":         "STACEY",
+            "level":        "Medium-Dark",
+            "ordered_at":   "2021/05/29",
+            "roasted_at":   "2021/06/01",
+
+            "tasting_notes": "Delicious all-day drinker. Chocolatey, nice round acidity, satisfying body, dark but not burnt. Perfectly roasted to bring out caramel without char. Plus, it's named after Georgia's own Stacey Abrams, without whom this website would not exist."
+        },
+
+        {
+            "name":         "Ethiopian Guji",
+            "level":        "Light",
+            "ordered_at":   "2021/05/29",
+            "roasted_at":   "2021/06/01",
+
+            "tasting_notes": "Classic berry-forward Ethiopian. Just what you're expecting. Clean finish, light body, great cup."
+        }
+    ]
+}
