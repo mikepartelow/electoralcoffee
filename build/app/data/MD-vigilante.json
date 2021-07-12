@@ -1,0 +1,37 @@
+{
+    "id":           "vigilante",
+    "name":         "Vigilante Coffee Company",
+    "state":        "MD",
+    "address":      "4327 Gallatin Street\nHyattsville, MD 20781",
+    "url":          "https://www.vigilantecoffee.com",
+
+    "map_x":        980,
+    "map_y":        350,
+
+    "roasts": [
+         {
+            "name":         "Tin Lizzie Espresso Blend",
+            "level":        "Medium-Dark",
+            "ordered_at":   "2021/06/30",
+            "roasted_at":   "2021/07/01",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    32,
+                "seconds":      46,
+                "temperature":  "201F"
+            },            
+
+            "tasting_notes": "Chocolate, chocolate, and chocolate. Heavy body, chewy coffee grounds flavor. Bullseye for my desired style of espresso. Forgiving across a range of extractions. Well balanced secondary flavors hididng beneath the chocolate. I dig it."
+        },
+
+        {
+            "name":         "The South American Cold Breezy Blend",
+            "level":        "Medium",
+            "ordered_at":   "2021/06/30",
+            "roasted_at":   "2021/07/01",
+
+            "tasting_notes": "Designed for cold brew, I used it for pourover drip. Tasty, balanced, chocolate and rounded sweetness. Like cold brew, but hot."
+        }
+    ]
+}
