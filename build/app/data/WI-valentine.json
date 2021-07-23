@@ -1,0 +1,47 @@
+{
+    "id":           "valentine",
+    "name":         "Valentine Coffee Roasters",
+    "state":        "WI",
+    "address":      "5918 W Vliet St\nMilwaukee WI 53208",
+    "url":          "https://www.valentinecoffeeco.com",
+
+    "map_x":        782,
+    "map_y":        280,
+
+    "roasts": [
+         {
+            "name":         "Espresso Dolce",
+            "level":        "Medium-Dark",
+            "ordered_at":   "2021/07/15",
+            "roasted_at":   "not stated",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    28,
+                "seconds":      "26-46",
+                "temperature":  "200F"
+            },
+
+            "tasting_notes": "Shamelessly borrowing the name of a famous West Coast blend but shipping for half the price, and not stamped with a roast date, I was skeptical. But this is outstanding old-school espresso. Not fruity, not sour, but instead thick, chocolatey, with just enough complexity and cup-to-cup variance to keep things interesting. Obviously quite fresh despite no roast date label. Am I harping on the lack of roast date? I sure am. It's unusual. But this espresso is a bullseye to my preferences, and it ships at an unbelievably low price. I will defintely get more and if it's as chocolate-and-crema laden and fresh as this was I will overlook the lack of a roast date."
+        },
+
+        {
+            "name":         "Bali Kintamani",
+            "level":        "Medium-Dark",
+            "ordered_at":   "2021/07/15",
+            "roasted_at":   "not stated",
+
+            "tasting_notes": "Again, no roast date. Weird, but obviously fresh coffee. Darker than a lot of modern fancy coffee, it manages to present tasty origin characteristics without any possibility of sourness. Tasty roast characteristics perrectly balanced by gently presented origin notes. Hard to beat at any price, but also very cheap."
+        },
+
+        {
+            "name":         "Papua New Guinea",
+            "level":        "Dark",
+            "ordered_at":   "2021/07/15",
+            "roasted_at":   "not stated",
+
+            "tasting_notes": "Again, no roast date. Weird, but obviously fresh coffee. Too dark for my tastes. I didn't get much origin flavor, and too much roast flavor. The other two coffees from this roaster were excellent and great, so no regerts. Did I mention what a bargain the prices are here? Even shipping is cheap. I've paid a lot more to other roasters for coffee I didn't like - the low price soothes the sting of defeat. Next order I'll steer towards their lighter roasts."
+        }
+
+    ]
+}
