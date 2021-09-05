@@ -1,0 +1,37 @@
+{
+    "id":           "highergrounds",
+    "name":         "Higher Grounds Coffee",
+    "state":        "MI",
+    "address":      "806 Red Drive, Ste. 150\nTraverse City, MI 49684",
+    "url":          "https://www.highergroundstrading.com/",
+
+    "map_x":        820,
+    "map_y":        240,
+
+    "roasts": [
+         {
+            "name":         "Mayan Magic Espresso",
+            "level":        "Dark",
+            "ordered_at":   "2021/08/26",
+            "roasted_at":   "2021/08/24",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    36,
+                "seconds":      45,
+                "temperature":  "201F (hot)"
+            },
+
+            "tasting_notes": "Roasters call this a Dark roast, but it is far short of the oily ashiness that I would call Dark. In other words, it's the perfect roast level for modern espresso. Complex and mysterious, silky, heavy body. Jolting berries and somewhat sharp acidity up front, revealing a delightfully unexpected long-lasting chocolate aftertaste. A wonderfully interesting espresso, endlessly variable with something new to discover in every shot. Where does that chocolate come from? It sticks around."
+        },
+
+         {
+            "name":         "Mexican Maya Vinic",
+            "level":        "Medium",
+            "ordered_at":   "2021/08/24",
+            "roasted_at":   "2021/08/19",
+
+            "tasting_notes": "Perfect Mexican coffee. Chocolate, baking spices, gentle, round sweetness. If you've had good Mexican coffee before, this is like that, only better. Approachable and also deeply layered."
+        }
+    ]
+}
