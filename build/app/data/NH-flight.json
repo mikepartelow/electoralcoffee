@@ -1,0 +1,30 @@
+{
+    "id":           "flight",
+    "name":         "Flight Coffee Co.",
+    "state":        "NH",
+    "address":      "209 NH-101\nBedford, NH 03110",
+    "url":          "https://flightcoffeeco.com/",
+
+    "map_x":        1046,
+    "map_y":        240,
+
+    "roasts": [
+         {
+            "name":         "Guatemala Santa Rosa",
+            "level":        "Medium",
+            "ordered_at":   "2021/09/29",
+            "roasted_at":   "2021/09/30",
+
+            "tasting_notes": "classic guat flavor. deeply sugared toasted caramel. maybe a little over the roast line for my taste. not-fruity old-school sweetness with a lot of crunchy, woodsy origin character."
+        },
+
+        {
+            "name":         "Space Dog Blend",
+            "level":        "A Fetching Medium Roast",
+            "ordered_at":   "2021/09/29",
+            "roasted_at":   "2021/09/30",
+
+            "tasting_notes": "pleasant, drinkable, a little too far over the roast line for my taste. great if you want to caffeinate while focusing on something other than your beverage.",
+        }
+    ]
+}
