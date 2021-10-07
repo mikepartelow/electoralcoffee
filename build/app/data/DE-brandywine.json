@@ -1,0 +1,30 @@
+{
+    "id":           "brandywine",
+    "name":         "Brandywine Coffee Roasters",
+    "state":        "DE",
+    "address":      "1400 N. Dupont St. \nWilmington, DE 19806",
+    "url":          "https://www.brandywinecoffeeroasters.com/",
+
+    "map_x":        996,
+    "map_y":        330,
+
+    "roasts": [
+         {
+            "name":         "Coffee For A Cause: S.O.S Colombia",
+            "level":        "Medium-Light",
+            "ordered_at":   "2021/09/05",
+            "roasted_at":   "2021/09/06",
+
+            "tasting_notes": "Dizzying depths of flavor, astonishing complexity all biased toward _delicious_. Rewarding of careful tasting, but so delicious it's easy to forget about being a snob and just enjoy the beverage. Taste the cherries. Taste the baking spice. Taste the chocolate. From farmer to roaster, there's incredible skill on display here. Good luck finding a better roaster than Brandywine."
+        },
+
+        {
+            "name":         "Sumatra - Mandheling - Bukit Barisan",
+            "level":        "Medium-Light",
+            "ordered_at":   "2021/09/05",
+            "roasted_at":   "2021/09/06",
+
+            "tasting_notes": "Incredibly satisfying flawless Sumatra. Billed as their 'beginner' coffee, it nonetheless has layers of complexity and depth. Nutty delicacy over a rich, full bodied chocolate base. I'm very excited to have discovered this roaster!"
+        }
+    ]
+}
