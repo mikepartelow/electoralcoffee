@@ -1,0 +1,30 @@
+{
+    "id":           "kindred",
+    "name":         "Kindred Coffee Roasters",
+    "state":        "IL",
+    "address":      "148 W Washington St, Ste 200\nWest Chicago, Illinois 60185",
+    "url":          "https://www.kindredcoffeeroasters.com",
+
+    "map_x":        782,
+    "map_y":        306,
+
+    "roasts": [
+         {
+            "name":         "Papua New Guinea Sigri Estate",
+            "level":        "Light",
+            "ordered_at":   "2021/10/21",
+            "roasted_at":   "2021/10/19",
+
+            "tasting_notes": "understated classic PNG funk, more citrus than berries, more baking spice than chocolate.  good stuff. i like this roaster. competent but not flashy. unusual origins made approachble. accessible drinkability. what PNG coffees are all about, without being off-putting."
+        },
+
+        {
+            "name":         "Uganda Rwenzori Natural",
+            "level":        "Medium-Light",
+            "ordered_at":   "2021/10/21",
+            "roasted_at":   "2021/10/19",
+
+            "tasting_notes": "light touch of delicious fermenty sweetness, solid body, nice chocolate character, subtle smooth caramel. wonderful balance. not overbearing, not boring. a little of everything including the modern fascination with natural processing, without going overboard. extremely drinkable."
+        }
+    ]
+}
