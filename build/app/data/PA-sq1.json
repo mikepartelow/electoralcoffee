@@ -1,0 +1,46 @@
+{
+    "id":           "sq1",
+    "name":         "Square One Coffee Roasters",
+    "state":        "PA",
+    "address":      "Lancaster, Pennsylvania",
+    "url":          "https://www.squareonecoffee.com/",
+
+    "map_x":        980,
+    "map_y":        322,
+
+    "roasts": [
+         {
+            "name":         "Thaddeus Espresso",
+            "level":        "Medium-Dark",
+            "ordered_at":   "2021/11/29",
+            "roasted_at":   "2021/12/01",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    26,
+                "seconds":      35,
+                "temperature":  "200F"
+            },
+
+            "tasting_notes": "Perfectly Fine Espresso. Nice balance of caramel and sweetness, I need to fiddle more with my settings to stretch it out and find what's hiding in the shot. I think I taste some earthy Indonesia in there. It is not yet my favorite, lacking the touch of burnt caramel I find in my all-time favorites, but it's very drinkable, great body, and tastes great at a variety of settings."
+        },
+
+        {
+            "name":         "Java Frinsa Collective",
+            "level":        "Medium",
+            "ordered_at":   "2021/11/29",
+            "roasted_at":   "2021/12/01",
+
+            "tasting_notes": "Solid boomy bass noted Java. Earthy, chocolatey, heavy duty. No-nonsense great coffee. Great for drinking While Doing Something."
+        },
+
+        {
+            "name":         "Zambia Northern Lights",
+            "level":        "Light",
+            "ordered_at":   "2021/11/29",
+            "roasted_at":   "2021/12/01",
+
+            "tasting_notes": "Bright but balanced. Not as juice-forward as I was expecting, and that's fine! The juice is in the finish, a pleasant reminder that I just downed a mouthful of full bodied, expertly roasted deliciousness."
+        }
+    ]
+}
