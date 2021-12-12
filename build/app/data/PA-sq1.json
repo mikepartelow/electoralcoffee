@@ -17,12 +17,12 @@
 
             "recipe": {
                 "grams_in":     18,
-                "grams_out":    26,
+                "grams_out":    33,
                 "seconds":      35,
                 "temperature":  "200F"
             },
 
-            "tasting_notes": "Perfectly Fine Espresso. Nice balance of caramel and sweetness, I need to fiddle more with my settings to stretch it out and find what's hiding in the shot. I think I taste some earthy Indonesia in there. It is not yet my favorite, lacking the touch of burnt caramel I find in my all-time favorites, but it's very drinkable, great body, and tastes great at a variety of settings."
+            "tasting_notes": "Velvety texture, full bodied, smooth, sweet, mild chocolate, hints of Indonesian earth - or is that my imagination? Lacking the burnt caramel of a darker roasdt that would make it my Favorite Ever, it is nonetheless a great coffee at a wide range of extraction parameters. A great option for when I'm tired of my Favorite Style."
         },
 
         {
@@ -31,7 +31,7 @@
             "ordered_at":   "2021/11/29",
             "roasted_at":   "2021/12/01",
 
-            "tasting_notes": "Solid boomy bass noted Java. Earthy, chocolatey, heavy duty. No-nonsense great coffee. Great for drinking While Doing Something."
+            "tasting_notes": "Solid boomy bass noted Java. Earthy, chocolatey, rasisiny: heavy duty. No-nonsense great coffee. Great for drinking While Doing Something. A+"
         },
 
         {
