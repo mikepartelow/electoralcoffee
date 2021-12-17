@@ -1,0 +1,55 @@
+{
+    "id":           "bigisland",
+    "name":         "Big Island Coffee Roasters",
+    "state":        "HI",
+    "address":      "161193 Uhini Ana Rd, Mountain View, HI 96771",
+    "url":          "https://bigislandcoffeeroasters.com",
+
+    "map_x":        512,
+    "map_y":        668,
+
+    "roasts": [
+        {
+            "name":         "100% Ka'u Morning Glory ",
+            "level":        "Medium-Light",
+            "ordered_at":   "2021/12/06",
+            "roasted_at":   "2021/12/08",
+
+            "tasting_notes": "Deliciously sweet, with a surprising roasty backbone. Honeyed body. Light chocolate. \"U shaped\" flavor profile, highs and lows with a muted middle. Extremely delicious. Roaster's tasting notes say \"buttery\". Yes!"
+        },
+
+        {
+            "name":         "Kona Peaberry",
+            "level":        "Medium-Light",
+            "ordered_at":   "2021/12/06",
+            "roasted_at":   "2021/12/09",
+
+            "tasting_notes": "Raisiny, intense. Full bodied. Almost impenetrably coffee-like. Not chocolate, not berries, not bitter, not sour, a little sweet, a little caramelly. Mostly just pure \"coffee flavor\" with a body nearly as thick as espresso. Lusciously delicious."
+        },
+
+        {
+            "name":         "Big Island Maui Mellow 100% Maui Coffee",
+            "level":        "Medium",
+            "ordered_at":   "2021/12/06",
+            "roasted_at":   "No Date but Obviously Fresh",
+
+            "tasting_notes": "Full body. Nice toasty, nutty roast notes. Intense \"coffee\" flavor, soft mellow sweetness. Caramel aroma. Raisiny aftertaste, just like the roaster's notes say. Very tasty, very mellow. Darker roast than I prefer but skillfully done to preserve, not destroy, flavor. I want to say this isn't my favorite because it's too dark, but I keep tasting the raisins and they're enchanting."
+        },
+
+        {
+            "name":         "100% Hawaiian Coffee Hawaiian Harmony",
+            "level":        "Medium-Dark",
+            "ordered_at":   "2021/12/06",
+            "roasted_at":   "2021/12/06",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    36,
+                "seconds":      25,
+                "temperature":  "200F"
+            },
+
+            "tasting_notes": "Magical! Syrupy/honeyed thick, sweet, milk chocolatey. A mouthfeel so velvety and lush I almost forgot to taste it. Lasting enticing finish. Excellent on its own terms, not reminiscent of my favorite burnt-caramel style, not like the currently fashionable South American/African blends. I didn't imagine 100% Hawaiian coffee could make decent espresso. Now I know it can make outstanding espresso, with the right roaster!"
+        }
+    ]
+}
