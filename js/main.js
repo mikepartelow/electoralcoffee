@@ -20,6 +20,8 @@ $(".whatabout-link").click(function(e) {
   var name = $(this).data('whatabout');
   var whatabout = '#whatabout-' + name;
 
+  $(window).scrollTop(0);
+
   $('#info-box').css('display','block');
   $('#info-box').html('<div>' + $("#coffee-" + name + ' circle').data('name') + '</div>');
 
