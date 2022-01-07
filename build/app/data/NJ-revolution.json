@@ -1,0 +1,46 @@
+{
+    "id":           "revolution",
+    "name":         "Revolution Coffee Roasters",
+    "state":        "NJ",
+    "address":      "809 Haddon Avenue\nCollingswood, NJ 08108",
+    "url":          "http://revolutioncoffeeroasters.com",
+
+    "map_x":        1008,
+    "map_y":        323,
+
+    "roasts": [
+        {
+            "name":         "India Monsoon Malabar",
+            "level":        "Medium-Dark",
+            "ordered_at":   "2020/12/29",
+            "roasted_at":   "Not Stated",
+
+            "tasting_notes": "Disappointingly, no roast date on any of the 3 bags. Seems fresh-ish. Monsooned Malabar is a unique bean with unique properties, so it's tricky to guess freshness  by eyeballing the brew. For some reason it's rare to find delicious Monsooned Malabar at a coffee shop. In my experience, anybody who sells it has it in stock mainly for their Vivace-style epresso blend, and if so, I will like their espresso blend. This one has a bitter attack that vanishes after a few sips, giving way to a dense, funky/nutty chocolate smoothness. Nice dense body, a hint of round sweetness, and plenty of complexity. It's roasted a little lighter than I expected but it's still darker than 'medium', as advertised. Some roasters char their Monsooned Malabar, this roaster didn't. I dig it!"
+        },
+
+        {
+            "name":         "Espresso Blend",
+            "level":        "Medium-Dark",
+            "ordered_at":   "2020/12/29",
+            "roasted_at":   "Not Stated",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    32,
+                "seconds":      45,
+                "temperature":  "198F (cool)"
+            },
+
+            "tasting_notes": "Disappointingly, no roast date on any of the 3 bags. Seems fresh. Savory  complexity, nutty, bitter, peppery, lightly velvety - viscous but not syrupy. Successfully in the style of Espresso Vivace. Darker than most, but skillfully blended to produce a tasty beverage with a pleasant body. Low acidity but it turns out there's lots of complexity to be presented even without fruity, sour, or sweet notes. I like it a lot. Easy to pull a tasty shot. Delicious over a wide range of parameters."
+        },
+
+        {
+            "name":         "Ethiopian Natural Sidamo",
+            "level":        "Light",
+            "ordered_at":   "2020/12/29",
+            "roasted_at":   "Not Stated",
+
+            "tasting_notes": "Disappointingly, no roast date on any of the 3 bags. Seems fresh. Medium body, plenty of fruit, nice clean coffee finish. A good cup of coffee. Not my favorite origin, I think. The roast is skillfully done and brings out the unique character of the bean, which I happen not to prefer!"
+        }
+    ]
+}
