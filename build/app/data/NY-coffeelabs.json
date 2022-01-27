@@ -1,0 +1,46 @@
+{
+    "id":           "coffeelabs",
+    "name":         "Coffee Labs Roasters",
+    "state":        "NY",
+    "address":      "7 Main Street\nTarrytown, NY 10591",
+    "url":          "https://www.coffeelabs.com/",
+
+    "map_x":        1016,
+    "map_y":        288,
+
+    "roasts": [
+        {
+            "name":         "Brazil Fazenda Bananal, Burundi Style Fermentation",
+            "level":        "Medium-Dark",
+            "ordered_at":   "2022/01/12",
+            "roasted_at":   "2022/01/13",
+
+            "tasting_notes": "Solid chocolatey, sweet, full bodied cup of coffee. I wasn't blown away, but I was blown away by Circus Dog Espresso. This review is the same as the other Brazil in this order. That's intentional."
+        },
+
+        {
+            "name":         "Circus Dog Espresso",
+            "level":        "Medium-Dark",
+            "ordered_at":   "2022/01/12",
+            "roasted_at":   "2022/01/13",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    32,
+                "seconds":      35,
+                "temperature":  "200F"
+            },
+
+            "tasting_notes": "Fantastic medium-dark espresso. Luxurious velvety texture, mild, balanced, savory flavor. Milk chocolaty aftertaste. Not flashy or excessively bright, not boring, not deep-dark or smokey. Just nice and satisfying, shot after shot. Before finishing the bag I ordered another one. "
+        },
+
+        {
+            "name":         "Brazil Morada da Prata Yeast Control",
+            "level":        "Medium-Dark",
+            "ordered_at":   "2022/01/12",
+            "roasted_at":   "2022/01/13",
+
+            "tasting_notes": "Solid chocolatey, sweet, full bodied cup of coffee. I wasn't blown away, but I was blown away by Circus Dog Espresso. This review is the same as the other Brazil in this order. That's intentional."
+        }
+    ]
+}
