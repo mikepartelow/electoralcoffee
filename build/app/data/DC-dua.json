@@ -1,0 +1,40 @@
+{
+    "id":           "dua",
+    "name":         "Dua Coffee",
+    "state":        "DC",
+    "address":      "4923 15th St. NW\nWashington DC, 20005,",
+    "url":          "https://duacoffeedc.com/",
+
+    "map_x":        973,
+    "map_y":        350,
+
+    "roasts": [
+         {
+            "name":         "Sunda Aromanis - Natural",
+            "level":        "Medium",
+            "ordered_at":   "2022/01/30",
+            "roasted_at":   "2022/01/26",
+
+            "tasting_notes": "Classic Indonesian funk, bright ripe cherries, and a hint of roasty darkness. A three legged stool of deliciousness. Thick body, complex triple-axis of flavor, satisfying. Roaster's notes say \"floral\". Yeah, that too. White wine notes. Wonderful! Dua outsources their roasting to Mayorga Organics."
+        },
+
+        {
+            "name":         "Tolu Batak",
+            "level":        "Medium",
+            "ordered_at":   "2022/01/30",
+            "roasted_at":   "2022/01/18",
+
+            "tasting_notes": "Rich, syrupy mouthfeel, subtly sweet, subtly tart. Baking spice aroma. Earthy indonesian character. balanced, big. Sweet/tart cherry aftertaste. No roast character but doesn't taste too light. Extremely drinkable. Dua outsources their roasting to Mayorga Organics."
+        },
+
+        {
+            "name":         "Bali Dewata",
+            "level":        "Medium",
+            "ordered_at":   "2022/01/30",
+            "roasted_at":   "2022/01/26",
+
+            "tasting_notes": "Toasted raisin. Burnt caramel. Brown sugar aroma. My favorite of the three from this roaster. Thick, syrupy raisiny body, thickest of the three. Not chocolatey, but juicy raisiny. Good thing I like raisins. I love this coffee! Dua outsources their roasting to Mayorga Organics."
+        }
+
+    ]
+}
