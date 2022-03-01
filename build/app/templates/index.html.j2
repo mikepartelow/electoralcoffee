@@ -16,18 +16,19 @@
   <body>
 
     <main role="main" class="container-fluid d-flex h-100 flex-column">
-      <div class="text-center">
+      <div class="text-center" id="title-box">
         <h1>{{ title }}</h1>
         <h3 class="text-muted">{{ subtitle }}</h3>
+        <img id="completed" src="/victorycoffee/img/done.png" title="DONE" />
       </div>
 
       <div class="row" id="row0">
         <div class="col-md-9">
           <div id="map">
             <div id="info-box"></div>
-            
+
             {% include 'usa.svg.j2' %}
-            
+
           </div> <!-- map -->
         </div> <!-- col-md-8 -->
 
@@ -35,7 +36,7 @@
           <div id="whatabout">
 
             {% include 'whatabout.html.j2' %}
-          
+
           </div> <!-- whatabout -->
         </div> <!-- col-md-4 -->
       </div> <!-- row0 -->

@@ -1,3 +1,20 @@
+#title-box {
+  padding:50px;
+  position:relative;
+}
+#title-box h3 {
+  position:relative;
+  z-index:0;
+}
+#title-box #completed {
+  left:70%;
+  position:absolute;
+  top:20%;
+  width:10em;
+  z-index:1;
+  opacity: 0.7;
+  transform: rotate(60deg);
+}
 .footer {
   position: absolute;
   bottom: 0;
@@ -22,7 +39,7 @@ svg.icon {
   pointer-events: none;
 }
 #whatabout {
-  padding-top: 2em;  
+  padding-top: 2em;
   height: 100%;
   width: 100%;
 }
@@ -46,7 +63,7 @@ html {
 }
 body {
   height: 100%;
-  margin-bottom: 60px;  
+  margin-bottom: 60px;
 }
 #about .modal-title {
   text-align: center;
