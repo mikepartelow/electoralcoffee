@@ -1,0 +1,52 @@
+{
+    "id":           "barrington",
+    "name":         "Barrington Coffee Roasting Company",
+    "state":        "MA",
+    "address":      "165 Quarry Hill Road\nLee, MA 01238",
+    "url":          "https://barringtoncoffee.com/",
+
+    "map_x":        1022,
+    "map_y":        264,
+
+    "roasts": [
+         {
+            "name":         "Kalle Peaberry",
+            "level":        "Medium",
+            "ordered_at":   "2022/02/14",
+            "roasted_at":   "2022/02/14",
+
+            "tasting_notes": "Nutty, caramel. Full body. Sweet tea aftertaste, caramel crunch. Cookie spice aroma. Cery deliicous. So nutty. So sweet. Not so chocolatey. Drinkable."
+        },
+
+        {
+            "name":         "(413) Espresso",
+            "level":        "Medium",
+            "ordered_at":   "2022/02/14",
+            "roasted_at":   "2022/02/16",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    30,
+                "seconds":      45,
+                "temperature":  "200F"
+            },
+
+            "tasting_notes": "Lightly fruity, with chocolate finish. Bright, lively, but not sour. Some nuttiness, some butter. Coffee grounds finish. Great contrast to the Gold. New-school-ish but not overblown. I like this roaster a lot!"
+        },
+        {
+            "name":         "Gold Espresso",
+            "level":        "Medium",
+            "ordered_at":   "2022/02/14",
+            "roasted_at":   "2022/02/16",
+
+            "recipe": {
+                "grams_in":     18,
+                "grams_out":    28,
+                "seconds":      35,
+                "temperature":  "200F"
+            },
+
+            "tasting_notes": "Medium body, long milk chocolatey finish, bright, nutty, caramel Monsooned Malabar flavors. Savory, peppery, clean. Not as similar to Josuma's \"Malabar Gold\" as I expected from the naming and origins. More like \"what if Josuma, but a lighter roast?\" I think I like (413) and Josuma better, but I wouldn't turn down a shot. Skillfully roasted. Barrington has impressed me."
+        }
+    ]
+}
